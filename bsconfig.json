@@ -1,0 +1,8 @@
+{
+  "name": "rescript-weak-array",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  }
+}

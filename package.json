@@ -1,0 +1,19 @@
+{
+  "name": "rescript-weak-array",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript build",
+    "watch": "rescript build -w"
+  },
+  "keywords": [
+    "ReScript",
+    "weak",
+    "array"
+  ],
+  "author": "Boris D.",
+  "license": "LGPL-2.1",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  }
+}
