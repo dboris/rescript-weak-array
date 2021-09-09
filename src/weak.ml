@@ -31,10 +31,10 @@ let raise_if_invalid_offset e o msg =
   if not (0 <= o && o < length e) then
     invalid_arg(msg)
 
-external set' : 'a t -> int -> 'a -> unit = "caml_ephe_set_key"
+external set' : 'a t -> int -> 'a -> unit = "caml_weak_set"
 [@@module "./caml_weak.mjs"]
 
-external unset : 'a t -> int -> unit = "caml_ephe_unset_key"
+external unset : 'a t -> int -> unit = "caml_weak_unset"
 [@@module "./caml_weak.mjs"]
 
 let set e o x =
