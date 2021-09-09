@@ -1,8 +1,12 @@
 {
   "name": "rescript-weak-array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "sources": {
     "dir" : "src",
     "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
   }
 }
